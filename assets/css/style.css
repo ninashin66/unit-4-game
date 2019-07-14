@@ -1,0 +1,93 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    background-image: url('https://images.pexels.com/photos/578860/pexels-photo-578860.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    color: grey;
+    
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 120px;
+    text-align: center;
+    color: black;
+    margin: 10px 200px 0px 200px;
+    background-color: rgba(211,211,211,0.75);
+    border: dotted;
+    opacity: .75;
+}
+
+.container{
+    margin: 20px 40px 40px 40px;
+    background-color: white;
+    opacity: .75;
+    padding: 20px;
+    border: dotted;
+    border-color: black;
+}
+
+.user-info{
+    color: black;
+    text-align: center;
+    margin: 20px;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+    background-color: lightgrey;
+    padding: 10px;
+    box-shadow: 0 0 5px 5px black;
+    border-radius: 10px;
+    width: auto;
+    position: relative;
+}
+
+.number{
+    background-color: rgba(255, 255, 255,0.75);
+    width: 30%;
+    position: relative;
+    left: 33%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px 5px white;
+    margin: 10px;
+}
+
+#random-number{
+    font-size: 40px;
+    line-height: 50px;
+}
+.crystal{
+    width: auto;
+    background-color: lightgrey;
+    border: none;
+    margin: 5px;
+    
+}
+
+.crystal:hover{
+    background-color: pink;
+    opacity: .5;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.crystal:focus{
+    outline: none;
+}
+
+.flowers{
+    text-align: center;
+    margin: 20px;
+}
+
+.score{
+    margin: 20px;
+}
+
+footer{
+    font-size: 10px;
+    text-align: center;
+}
